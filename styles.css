@@ -1,7 +1,4 @@
-.page {
-    background-image: url("../homepage/Background.jpg");
-    background-size: cover;
-}
+
 
 #top {
     height: 70px;
@@ -163,4 +160,11 @@ body, html {
     margin-left: 3%;
     font-size: 120%;
     padding-bottom: 5%;
+}
+
+body {
+    background-image: url('Background.jpg'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image */
 }
