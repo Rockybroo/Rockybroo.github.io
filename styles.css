@@ -1,0 +1,166 @@
+.page {
+    background-image: url("../homepage/Background.jpg");
+    background-size: cover;
+}
+
+#top {
+    height: 70px;
+    background-color: black;
+}
+
+.menu-button {
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.me {
+    position: absolute;
+    top: 45%;
+    left: 51.5%;
+    transform: translate(-51.5%, -45%);
+    width: 27%;
+}
+
+#me-title {
+    transition: margin-top 0.3s ease;
+}
+
+#listh {
+    color: white;
+    visibility: hidden;
+    font-size: 150%;
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    transform: translate(-52%, -40%);
+    width: 8%;
+}
+
+#about {
+    margin-top: 10px;
+    margin-bottom: -1px;
+    transition: margin-top 0.3s ease;
+    margin-right: 20px; 
+    cursor: pointer;
+}
+
+#qualifications {
+    margin-left: -18px;
+}
+
+#hobbies {
+    margin-left: 9px;
+}
+
+#projects {
+    margin-left: 11px;
+}
+
+.seperator {
+    margin-right: 20px; 
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .me {
+        margin-left: 10px; 
+        margin-top: 20px; 
+        width: 90%; 
+    }
+
+    #listh {
+        margin-left: 20px; 
+        font-size: 120%;
+        margin-top: -20px; 
+    }
+
+    #about,
+    .seperator {
+        margin-right: 20px;
+    }
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    background-image: url("../homepage/Background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+#bottom {
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#abouth
+{
+    color: white;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+#aboutb
+{
+    color: white;
+    margin-top: 2%;
+    margin-left: 3%;
+    font-size: 120%;
+}
+
+#Home
+{
+    margin-top: 0.6%;
+    margin-left: 1.3%;
+    cursor: pointer;
+}
+
+#compiler 
+{
+    width: 80%;
+    margin-left: 5%;
+    filter: invert(100%);
+}
+
+.rounded-button {
+    background-color: var(--bs-gray-900);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px; 
+    width: 3cm;
+    display: block; 
+    border: none;
+    cursor: pointer;
+}
+#Mario {
+    background-color: var(--bs-gray-800);
+}
+
+#compiler-container {
+    display: flex;
+    flex-direction: row; /* Set flex-direction to row to position buttons and compiler side by side */
+}
+
+#compmenu {
+    margin-left: 2%;
+}
+
+#aboutb_bottom {
+    color: white;
+    margin-top: 2%;
+    margin-left: 3%;
+    font-size: 120%;
+    padding-bottom: 5%;
+}
